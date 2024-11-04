@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoPic"
+        android:layout_width="215dp"
+        android:layout_height="304dp"
+        android:layout_gravity="center"
+        android:marginBottom="40dp"
+        android:paddingTop="100dp"
+        app:srcCompat="@drawable/logologo" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textSize="35px" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:textSize="35px"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/errorLbl"
+        android:layout_width="365dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="ErrorLbl"
+        android:textSize="35px"
+        android:visibility="invisible"
+        android:textColor="@android:color/holo_red_light"/>
+
+</LinearLayout>
