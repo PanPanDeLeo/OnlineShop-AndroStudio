@@ -1,0 +1,1 @@
+Developed an interactive Android application using Android Studio with an online shop theme, specializing in stationery products. Integrated interactive features for a seamless user experience, enhancing shopping and product browsing within the app.
